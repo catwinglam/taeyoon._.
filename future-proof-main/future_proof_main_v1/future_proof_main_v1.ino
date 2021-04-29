@@ -32,7 +32,7 @@ uint8_t inBytes[8];
 const int strike_millis[] = {185, 220, 200, 200, 215, 160, 180}; //change the values here to adjust strike travel distance
 
 //strike frequency type
-const int strike_type[] = {5, 6, 4, 4, 3, 2, 2};//change the values here to change striking frequency
+const int strike_type[] = {5, 5, 4, 4, 3, 3, 2};//change the values here to change striking frequency
 
 /***STRIKE TYPE***
   0: off
