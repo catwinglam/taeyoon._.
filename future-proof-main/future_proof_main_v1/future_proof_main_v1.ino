@@ -29,11 +29,10 @@ uint8_t inBytes[8];
 
 /*********************************ADJUSTABLE VARIABLES BEGIN HERE*********************************/
 //strike forward time in millis 
-const int strike_millis[] = {185, 210, 200, 200, 215, 160, 180}; //change the values here to adjust strike travel distance
+const int strike_millis[] = {185, 220, 200, 200, 215, 160, 180}; //change the values here to adjust strike travel distance
 
 //strike frequency type
-// windchime -> 7 6 5 4 3 2 1 
-const int strike_type[] = {2, 3, 3, 4, 4, 5, 5};//change the values here to change striking frequency
+const int strike_type[] = {5, 6, 4, 4, 3, 2, 2};//change the values here to change striking frequency
 
 /***STRIKE TYPE***
   0: off
