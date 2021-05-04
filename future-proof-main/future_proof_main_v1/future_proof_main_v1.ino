@@ -85,9 +85,9 @@ void loop() {
     DateTime now = rtc.now();
     unsigned int current_minute = now.minute();
     unsigned int current_second = now.second();
-    Serial.print(current_minute);
-    Serial.print(":");
-    Serial.println(current_second);
+//    Serial.print(current_minute);
+//    Serial.print(":");
+//    Serial.println(current_second);
     for (int i = 0; i < NUM_WINDCHIMES; i++) {
       windchimes[i].update_time(current_minute, current_second);
     }

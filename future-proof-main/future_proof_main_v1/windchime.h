@@ -34,6 +34,7 @@ class WindChime
 
     unsigned long strike_start_millis = 0;
     unsigned long state_start_millis;
+    unsigned long previous_strike_millis = 0;
 };
 
 #endif
